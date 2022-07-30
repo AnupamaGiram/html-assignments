@@ -1,10 +1,25 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Image Practicals</title>
 </head>
 
 <body style="background-image: url('../images/image1.jpg') ;">
+    
 <h1> Welcome to image Practical</h1>
+<img src="../images/image3.jpg" alt="image of path" width="229" height="229">
 
+<img src="../images/workspace.jpg" alt="workspace" usemap="#workmap">
+
+<map name="wprkmap">
+    <area shape="rect" coords="350,379" alt="computer" href="computer.html">
+</map>
+
+<picture>
+    <source media="(min-width: 650px)" srcset="../images/image4.jpg">
+    <source media="(min-width: 465px)" srcset="../images/image5.jpg">
+    <img src="../images/image2.jpg">
+  </picture>
+  
 </body>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Style</title>
+        <style>
+            table
+            {
+                border: 2px solid skyblue;
+                border-collapse: collapse;
+                width: 30%;
+            }
+            th,td:nth-child(2)
+            {
+                text-align: left;
+                padding: 8px;
+                background-color: #D6AAAE;
+            }
+            tr:nth-child(even)
+            {
+                background-color: #D6EEEE;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Personal Information</caption>
+            <tr>
+                <th>Sr no</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Anupama</td>
+                <td>A2 601</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Abhijeet</td>
+                <td>C2 106</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Aniket</td>
+                <td>B2 201</td>
+            </tr>
+        </table>
+    </body>
+</html>
